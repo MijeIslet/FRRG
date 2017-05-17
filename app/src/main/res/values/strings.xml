@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FRRG</string>
+    <string name="pref_title_pattern_lock">设置密码</string>
 </resources>

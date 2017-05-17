@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2015 Zhang Hai <Dreaming.in.Code.ZH@Gmail.com>
+ * All Rights Reserved.
+ */
+
 package cn.com.mije.frrg.utils;
 
 import android.app.Activity;
@@ -10,11 +15,8 @@ import android.support.v4.app.NavUtils;
 import android.support.v4.app.TaskStackBuilder;
 import android.support.v7.app.AppCompatActivity;
 
-
-/**
- * Created by Administrator on 2017/5/15.
- */
 public class AppUtils {
+
     private AppUtils() {}
 
     public static PackageInfo getPackageInfo(Context context) {
@@ -39,7 +41,7 @@ public class AppUtils {
                 TaskStackBuilder.create(activity)
                         // Add all of this activity's parents to the back stack.
                         .addNextIntentWithParentStack(upIntent)
-                        // Navigate up to the closest parent.
+                                // Navigate up to the closest parent.
                         .startActivities();
             } else {
                 // This activity is part of this app's task, so simply

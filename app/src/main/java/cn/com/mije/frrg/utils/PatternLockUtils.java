@@ -7,7 +7,7 @@ import android.text.TextUtils;
 
 import java.util.List;
 
-import cn.com.mije.library.ConfirmPatternActivity;
+import cn.com.mije.frrg.ConfigAct;
 import cn.com.mije.library.PatternUtils;
 import cn.com.mije.library.PatternView;
 import cn.com.mije.library.SetPatternActivity;
@@ -50,7 +50,7 @@ public class PatternLockUtils {
 
     // NOTE: Should only be called when there is a pattern for this account.
     public static void confirmPattern(Activity activity, int requestCode) {
-        activity.startActivityForResult(new Intent(activity, ConfirmPatternActivity.class),
+        activity.startActivityForResult(new Intent(activity, ConfigAct.class),
                 requestCode);
     }
 

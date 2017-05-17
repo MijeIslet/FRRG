@@ -18,6 +18,7 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Rect;
@@ -290,9 +291,14 @@ public class PatternView extends View {
         //mRegularColor = context.getColor(R.color.lock_pattern_view_regular_color);
         //mErrorColor = context.getColor(R.color.lock_pattern_view_error_color);
         //mSuccessColor = context.getColor(R.color.lock_pattern_view_success_color);
-        mRegularColor = a.getColor(R.styleable.PatternView_pl_regularColor, mRegularColor);
-        mErrorColor = a.getColor(R.styleable.PatternView_pl_errorColor, mErrorColor);
-        mSuccessColor = a.getColor(R.styleable.PatternView_pl_successColor, mSuccessColor);
+
+//        mRegularColor = a.getColor(R.styleable.PatternView_pl_regularColor, mRegularColor);
+//        mErrorColor = a.getColor(R.styleable.PatternView_pl_errorColor, mErrorColor);
+//        mSuccessColor = a.getColor(R.styleable.PatternView_pl_successColor, mSuccessColor);
+
+        mRegularColor = Color.GRAY;
+        mErrorColor = Color.RED;
+        mSuccessColor = Color.GREEN;
 
         a.recycle();
 

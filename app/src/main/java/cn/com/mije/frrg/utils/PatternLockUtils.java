@@ -8,6 +8,7 @@ import android.text.TextUtils;
 import java.util.List;
 
 import cn.com.mije.frrg.ConfigAct;
+import cn.com.mije.frrg.SetAct;
 import cn.com.mije.library.PatternUtils;
 import cn.com.mije.library.PatternView;
 import cn.com.mije.library.SetPatternActivity;
@@ -45,7 +46,7 @@ public class PatternLockUtils {
     }
 
     public static void setPatternByUser(Context context) {
-        context.startActivity(new Intent(context, SetPatternActivity.class));
+        context.startActivity(new Intent(context, SetAct.class));
     }
 
     // NOTE: Should only be called when there is a pattern for this account.

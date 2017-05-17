@@ -297,8 +297,8 @@ public class PatternView extends View {
 //        mSuccessColor = a.getColor(R.styleable.PatternView_pl_successColor, mSuccessColor);
 
         mRegularColor = Color.GRAY;
-        mErrorColor = Color.RED;
-        mSuccessColor = Color.GREEN;
+        mErrorColor = Color.rgb(246,82,26);
+        mSuccessColor = Color.rgb(2,147,131);
 
         a.recycle();
 

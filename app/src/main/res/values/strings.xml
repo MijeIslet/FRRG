@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">FRRG</string>
-    <string name="pref_title_pattern_lock">设置密码</string>
+    <string name="pref_title_pattern_lock">重设密码</string>
+    <string name="main_title">设置</string>
+
+    <string name="pattern_lock_title">图案解锁</string>
+    <string name="pref_title_set_pattern">设置解锁图案</string>
+    <string name="pref_summary_set_pattern_none">[ 未设置图案 ]</string>
+    <string name="pref_summary_set_pattern_has">[ 已设置图案 ]</string>
+    <string name="pref_title_pattern_visible">使图案可见</string>
+    <string name="pref_summary_pattern_visible_off">将在绘制时隐藏图案</string>
+    <string name="pref_summary_pattern_visible_on">将在绘制时显示图案</string>
+    <string name="pref_title_clear_pattern">清除解锁图案</string>
+    <string name="pref_dialog_message_clear_pattern">要清除解锁图案吗？</string>
+    <string name="pattern_cleared">已清除解锁图案</string>
+
+    <string name="set_pattern_title">设置解锁图案</string>
+    <string name="confirm_pattern_title">确认解锁图案</string>
+    <string name="reset_pattern_title">确认密码以重置图案</string>
+    <string name="reset_pattern_message">这只是一个示例程序。\n\n点击“确定”以重置解锁图案。</string>
+    <string name="pattern_reset">已重置解锁图案</string>
 </resources>

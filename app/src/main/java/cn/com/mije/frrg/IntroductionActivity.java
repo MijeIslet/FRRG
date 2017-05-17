@@ -16,7 +16,7 @@ public class IntroductionActivity extends AppCompatActivity implements PatternLo
         setContentView(R.layout.activity_introduction);
 
         if(!PatternLockUtils.hasPattern(this)){
-            startActivity(new Intent(this,MainActivity.class));
+            startActivity(new Intent(this,SetAct.class).putExtra("isFrist",true));
             finish();
         }
 
